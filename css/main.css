@@ -42,8 +42,22 @@ h2 {
     color:#CDB380;
 }
 
+h3 {
+  font-family: 'Open Sans', sans-serif;
+    font-size: 150%;
+    color:#033649;
+}
+
 p {
+    font-size: 155%;
+    font-family: 'Open Sans', sans-serif;
+    color:#036564;
+}
+
+ul{
+  font-family: 'Open Sans', sans-serif;
     font-size: 100%;
+    color:#036564;
 }
 /* header */
 header {
@@ -70,8 +84,8 @@ main {
     width: 100%;
     height: auto;
     margin:auto;
-    background-color:#E8DDCB;
-    padding:2em;
+    background-color:#033649;
+    padding:1em;
 }
 
 
@@ -82,8 +96,14 @@ main {
     text-align: center;
 }
 
+.accordian img{
+  border-left:2px solid #036564;
+}
+
+
+
 #headshot {
-    max-width: 200px;
+    max-width: 400px;
     width: 100%;
     padding:1em;
     margin-bottom: 1em;
