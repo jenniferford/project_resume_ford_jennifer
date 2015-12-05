@@ -30,17 +30,29 @@ div {
 }
 
 h1{
-  text-transform: uppercase;
-  font-family: Helvetica;
-  font-size: 300%;
+  font-family: 'Homemade Apple', cursive;
+  font-size: 350%;
+  line-height: 120%;
+  color:#CDB380;
 }
 
 h2 {
+  font-family: 'Open Sans', sans-serif;
     font-size: 200%;
+    color:#CDB380;
 }
 
 p {
     font-size: 100%;
+}
+/* header */
+header {
+  background-color: #033649;
+  }
+
+  #logo{
+  padding-left:3em;
+  padding-right: 3em;
 }
 
 /* Main */
@@ -58,7 +70,7 @@ main {
     width: 100%;
     height: auto;
     margin:auto;
-    background-color:#ffffff;
+    background-color:#E8DDCB;
     padding:2em;
 }
 
