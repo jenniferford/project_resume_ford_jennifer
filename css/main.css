@@ -48,6 +48,15 @@ h3 {
     color:#033649;
 }
 
+h6 {
+    font-size: 155%;
+    font-family: 'Open Sans', sans-serif;
+    color:#E8DDCB;
+    font-weight: lighter;
+    text-align: center;
+    line-height: 200%
+}
+
 p {
     font-size: 155%;
     font-family: 'Open Sans', sans-serif;
