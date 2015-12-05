@@ -9,11 +9,13 @@
     <link rel="stylesheet" href="css/vendor/normalize.min.css">
     <link rel="stylesheet" href="css/main.css">
     <link href='https://fonts.googleapis.com/css?family=Permanent+Marker|Satisfy|Rock+Salt|Special+Elite|Homemade+Apple|Open+Sans:400,300,300italic,400italic,600,600italic,700,700italic,800,800italic' rel='stylesheet' type='text/css'>
+    
+
 </head>
 <body>
 	<div id="wrapper" class="site-container">
         <div id="header-wrapper" >
-			<header id="header" class="container">
+			<header id="header" class="header">
 				<div id="logo">
 					<h1>Jennifer Ford Design</h2>
 					
@@ -24,16 +26,46 @@
 		<main>
 			<div id="about">
 					<img src="images/Jenphoto.jpg" alt="Jennifer Ford photo"/>
-					<p>Multimedia Developer for the University of Florida's Career Resource Center. </br></br>
+					<p>I'm Jennifer Ford. I am a Multimedia Developer for the University of Florida's Career Resource Center. </br></br>
 
 I am also a current graduate student at the University of Florida College of Journalism and Communications, studying Web Design and Online Communications.  I have a B.A. in Mass Communications with an emphasis in Graphic Design & Visual Communications from Idaho State University with a minor in Fine Arts/Studio Art. </br></br>
 
 Former graphic designer for the New York Times Syndicate, primarily working on the New York Times International Weekly and Spending Well and Chair of the NYT Editing Center's Employee Committee. </br></br>
 
 Skilled in InDesign, Illustrator, Photoshop, Flash, Dreamweaver and HTML coding, Audience Development, SEO and social media.  I am also an experienced illustrator, photographer, printmaker and painter who always enjoys experimenting with new mediums and dabbling in sculpture. </br></br>
+
+
 				</div>
+
+				<div id="work">
+				<h2>Where I've Worked</h2>
+					<h4>University of Florida, Career Resource Center </h4>
+					<h4>New York Times Company, NYT Syndicate </h4>
+					<h4>The Bannock Alternative, Small, Local Alt Weekly </h4>
+					<h4>Pocatello Magazine, Local Interest Publication </h4>
+
+
+				</div>
+
+		
+				</main>
+				
 	<script src="js/jquery-2.1.4.min.js"></script>
-		</main>
+<script src="js/main.js"></script>
+<script src="js/stickUp.min.js"></script>
+
+<script type="text/javascript">
+              //initiating jQuery
+              jQuery(function($) {
+                $(document).ready( function() {
+                  //enabling stickUp on the '.navbar-wrapper' class
+                  $('.header').stickUp();
+                });
+              });
+
+            </script>
+
+		
 
 </body>
 </html>
