@@ -74,8 +74,38 @@ main {
     padding:2em;
 }
 
-#about img{
-  max-width:35%;
+
+
+/* accordian */
+
+.accordion figure {
+    text-align: center;
 }
+
+#headshot {
+    max-width: 200px;
+    width: 100%;
+    padding:1em;
+    margin-bottom: 1em;
+}
+
+@media all and (min-width: 500px) {
+    .inner-content p {
+        width: 50%;
+        float: right;
+    }
+    #portrait {
+        float: left;
+    }
+    .inner-content {
+        overflow: auto;
+    }
+    ul {
+    -webkit-column-count: 2;
+    -moz-column-count: 2;
+    column-count: 2;
+    }
+}
+
 
     

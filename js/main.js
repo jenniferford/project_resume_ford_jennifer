@@ -1,13 +1,14 @@
 $ (document) .ready (function () {
 
-<script type="text/javascript">
-              //initiating jQuery
-              jQuery(function($) {
-                $(document).ready( function() {
-                  $('.header').stickUp();
-                });
-              });
 
-            </script>
-
-        });
+$(".accordion").accordion({
+//whether the first section is expanded or not
+firstChildExpand: true,
+//whether expanding mulitple section is allowed or not
+multiExpand: false,
+//slide animation speed
+slideSpeed: 500,
+//drop down icon
+dropDownIcon: "&#9660",
+});
+});
